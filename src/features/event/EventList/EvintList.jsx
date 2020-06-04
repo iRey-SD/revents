@@ -4,11 +4,13 @@ import EventListItem from './EventListItem'
 class EvintList extends Component {
     render() {
         return (
-            <dFragment>
-                <EventListItem/>
-                <EventListItem/>
-                <EventListItem/>
-            </dFragment>
+            <Fragment>
+                {this.props.events.map(event =>(
+                    
+                    <EventListItem key = {event.id} event = {event}/>
+
+                ))}
+            </Fragment>
         )
     }
 }

@@ -8,15 +8,15 @@ class App extends Component {
   render () {
     return (
 
-      <dFragment>
+      <Fragment>
 
 <NavBar/>
      <Container className = "main">
 
-<EventDashBoard></EventDashBoard>
+<EventDashBoard/>
       </Container>
 
-      </dFragment>
+      </Fragment>
      
       
 
