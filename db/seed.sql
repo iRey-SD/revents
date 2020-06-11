@@ -113,7 +113,7 @@ CREATE TABLE contactUs (
   message varchar NOT NULL
 );
 
-CREATE TABLE blog (
+CREATE TABLE posts (
   id SERIAL PRIMARY KEY,
   title VARCHAR NOT NULL,
   Datatime VARCHAR NOT NULL,
@@ -126,6 +126,6 @@ CREATE TABLE blog (
   City VARCHAR NOT NULL,
   Age int NOT NULL,
   categories VARCHAR NOT NULL,
-  admin_id int NOT NULL,
+  admin_id int NOT NULL
 );
 
